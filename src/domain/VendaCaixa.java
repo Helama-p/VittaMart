@@ -63,6 +63,16 @@ public class VendaCaixa {
         this.formaPagamento = formaPagamento;
     }
 
+    public String armazenarVenda () {
+        // Desenvolver o código necessário para armazenar vendas no estoque
+        return  " ";
+       }
+
+       public double calcularEntradaCaixa () {
+        // Desenvolver o código necessário para calcular os valores de entrada em cada caixa
+        return 0.00;
+       }
+
     @Override
     public String toString() {
         return "VendaCaixa [id=" + id + ", produtosList=" + produtosList + ", valor=" + valor + ", cpfCliente="

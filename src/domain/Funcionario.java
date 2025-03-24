@@ -38,10 +38,16 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public double calcularSalario () {
+        // Desenvolver o código para calcular o salário dos funcionários.
+        return this.salario;
+    }
+
     @Override
     public String toString() {
         return "Funcionario [nome=" + nome + ", cpf=" + cpf + ", salario=" + salario + "]";
     }
+    
     
     
 }

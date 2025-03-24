@@ -75,6 +75,10 @@ public class Distribuidora {
         this.produtosList = produtosList;
     }
 
+    public void cadastrarProduto () {
+        //Desenvolver o código necessário para a empresa cadastrar produtos no app.
+    }
+
     @Override
     public String toString() {
         return "Distribuidora [id=" + id + ", nome=" + nome + ", cnpj=" + cnpj + ", endereco=" + endereco + ", contato="

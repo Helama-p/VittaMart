@@ -4,7 +4,8 @@ public enum FormaPagamento {
 
     TRANSFERÊNCIA,
     CARTÃO,
-    BOLETO;
+    DINHEIRO,
+    BOLETO
 
 
 }
